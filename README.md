@@ -14,7 +14,7 @@ First, install python on your pc 💻  or Mac machine
 
 
 Then install Google's translate and text to speech libraries on your computer.
-using the following line of code in your default terminal or any terminal of choice.
+using the following lines of code in your default terminal or any terminal of choice.
 
 ```cmd
 pip install gTTS
