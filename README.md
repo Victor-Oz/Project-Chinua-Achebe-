@@ -1,10 +1,10 @@
-# Project-Chinua-Achebe-
+# Project-Chinua-Soyinka
 
 
-A speech Syntheses (TTS) software that translates from written English to spoken Igbo languages
+A speech Syntheses (TTS) software that translates from written English to spoken Igbo and Yoruba languages
 
 
-this project is named after the late Chinua Achebe  a great Nigerian novelist, poet, and advocate of the igbo language
+this project is named after the phenomenal late Chinua Achebe and the Living Legend Wole Soyinka. They are Nigerian novelists, poets, and advocates of  Nigerian native languages.
 
  Project-Chinua-Achebe- was built using googles tts and translate apis
 
