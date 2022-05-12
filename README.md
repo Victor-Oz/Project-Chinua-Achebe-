@@ -1,2 +1,33 @@
 # Project-Chinua-Achebe-
- A speech Syntheses (TTS) Software that translates from written English to spoken Igbo Languages 
+
+
+A speech Syntheses (TTS) software that translates from written English to spoken Igbo languages
+
+
+this project is named after the late Chinua Achebe  a great Nigerian novelist, poet, and advocate of the igbo language
+
+ Project-Chinua-Achebe- was built using googles tts and translate apis
+
+## Getting Started
+
+First, install python on your pc 💻  or Mac machine  
+
+
+Then install Google's translate and text to speech libraries on your computer.
+using the following line of code in your default terminal or any terminal of choice.
+
+```cmd
+pip install gTTS
+```
+### Then
+```cmd
+pip install translators --upgrade
+```
+
+as soon as both installations are completed, run the program while connected to the internet
+
+
+n.b it's been a minute since I wrote this program ,therefore, this repo code might be outdated, but hopefully, Google hasn't changed the way programs interact with their api's ,so I think it should work alright .!!
+
+
+###  pleace feel free to contribute and improve on this work .
