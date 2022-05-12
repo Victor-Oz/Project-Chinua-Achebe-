@@ -6,7 +6,7 @@ A speech Syntheses (TTS) software that translates from written English to spoken
 
 this project is named after the phenomenal late Chinua Achebe and the Living Legend Wole Soyinka. They are Nigerian novelists, poets, and advocates of  Nigerian native languages.
 
- Project-Chinua-Achebe- was built using googles tts and translate apis
+Project-Chinua-Soyinka was built using googles tts and translate apis
 
 ## Getting Started
 
