@@ -8,7 +8,7 @@ def question():
 #this section lets you pick the language you want to be translated to
 
 
-	if var == "igbo":   #igbo language translation
+	if var == "igbo":  
 		igboq= input("input the sentence for translation")
 		igboAnswer = (ts.google(igboq ,from_language='en', to_language='ig')) 
 		speech = igboAnswer
@@ -19,7 +19,7 @@ def question():
 		print(igboAnswer)
 		print(question()) 
 
-	elif var == "yoruba":   #yoruba language translation
+	elif var == "yoruba":  
 		yorubaQuestion= input("input the sentence for translation")
 		yorubaAnswer = (ts.google(yorubaQuestion ,from_language='en', to_language='yo')) 
 		speech = yorubaAnswer
