@@ -17,21 +17,21 @@ def question():
 		play.save("file.mp3")
 		os.system("start file.mp3") #the mp3 recording of your translated text is saved in the root directory of your pc
 		print(igboAnswer)
-		print(question()) #this loops the program back to its genesis state
+		print(question()) 
 
 	elif var == "yoruba":   #yoruba language translation
 		yorubaQuestion= input("input the sentence for translation")
 		yorubaAnswer = (ts.google(yorubaQuestion ,from_language='en', to_language='yo')) 
 		speech = yorubaAnswer
-		language = 'en-NG'    #this section chooses googles nigerian accent (voice) for the spoken text
+		language = 'en-NG'    
 		play = gTTS(text=speech)
 		play.save("file.mp3")
 		os.system("start file.mp3")
 		print(yorubaAnswer)
-		print(question())   #this loops the program back to its genesis state
+		print(question())  
 
 	else :
 		print("please enter a valid language")
-		print(question())   #this loops the program back to its genesis state
+		print(question())  
 
 question()
