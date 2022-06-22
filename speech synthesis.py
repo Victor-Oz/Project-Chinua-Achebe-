@@ -1,5 +1,5 @@
 from gtts import gTTS    #for importing google text to speech python library
-import translators as ts   #for importing translators python library
+import translators as ts  
 import os      
 
 
@@ -16,7 +16,7 @@ def question():
 		language = 'en-NG'
 		play = gTTS(text=speech)
 		play.save("file.mp3")
-		os.system("start file.mp3") #the mp3 recording of your translated text is saved in the root directory of your pc
+		os.system("start file.mp3") 
 		print(igboAnswer)
 		print(question()) 
 
